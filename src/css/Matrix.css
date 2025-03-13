@@ -1,0 +1,71 @@
+
+.fullMatrixContainer {
+  position: relative;
+  width: 100%;
+}
+
+.fullMatrix {
+    max-width: 100%;
+    font-size: .86em;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.fullMatrix th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #fff;
+    padding: 5px;
+    background-color: #eee;
+}
+
+.fullMatrix thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.fullMatrix thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+  }
+
+.fullMatrix td {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 5px;
+}
+
+.fullMatrix td.leftCol {
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    border-left: none;
+    background-color: #eee;
+    position: sticky;
+    left:0;
+}
+
+.altRowColor {
+    background-color: #f2fafd;
+}
+
+
+.foes {
+    color: red;
+    font-weight: bold;
+}
+
+.friends {
+    color: green;
+    font-weight: bold;
+}
+
+.neutral {
+    color:cadetblue;
+}
+
+.na {
+    color: #ccc;
+}
+
